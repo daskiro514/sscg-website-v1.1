@@ -1,0 +1,11 @@
+node_modules/
+package-lock.json
+config/default.json
+migrate/
+files/*
+.prettierrc
+
+client/node_modules/
+client/package-lock.json
+client/.eslintcache
+client/src/img/video/*

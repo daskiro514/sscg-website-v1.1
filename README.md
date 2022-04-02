@@ -1,1 +1,6 @@
-# sscg-website-v1.1
+# Start
+npm run dev
+
+# Build
+cd client
+npm run build
