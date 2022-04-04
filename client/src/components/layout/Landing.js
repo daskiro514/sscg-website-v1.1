@@ -4,7 +4,7 @@ import homeVideo2 from '../../img/video/home-video-2.mp4'
 import WithScrollbar from './WithScrollbar'
 import 'react-multi-carousel/lib/styles.css'
 import clientsImage from '../../img/clients.jpg'
-import Clients from './Clients'
+// import Clients from './Clients'
 import homeSlider from '../../img/video/homeslider.mp4'
 
 const Landing = () => {
@@ -24,14 +24,32 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div className='col-12 py-custom-10 bg-black'>
-
-      </div>
-      <div className='home-carousel bg-custom-blue'>
-        <div className='py-custom-8 bg-custom-blue'>
-          <WithScrollbar />
+      
+      <div className='get-in-touch clients'>
+        <div className='container-fluid'>
+          <div className='row'>
+            <div className='col-12 py-custom-10 px-0'>
+              <div className='text-center h2'>
+                We're grateful to work with
+              </div>
+              <div className='d-flex justify-content-center '>
+                <div className='h2'>
+                  incredible clients.
+                  <hr />
+                </div>
+              </div>
+              <div className='text-center pt-5'>
+                <img alt='SETIMAGE' src={clientsImage} className='img-fluid' />
+              </div>
+              {/* <div className='text-center pt-5 clients-image-all'>
+                <img alt='SETIMAGE' src={clientsImage} className='img-fluid' />
+              </div>
+              <Clients /> */}
+            </div>
+          </div>
         </div>
       </div>
+      
       <div className='get-in-touch'>
         <div className='container'>
           <div className='row'>
@@ -145,25 +163,12 @@ const Landing = () => {
           </div>
         </div>
       </div >
-      <div className='get-in-touch clients'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-12 py-custom-10'>
-              <div className='text-center h2'>
-                We're grateful to work with
-              </div>
-              <div className='d-flex justify-content-center '>
-                <div className='h2'>
-                  incredible clients.
-                  <hr />
-                </div>
-              </div>
-              <div className='text-center pt-5 clients-image-all'>
-                <img alt='SETIMAGE' src={clientsImage} className='img-fluid' />
-              </div>
-              <Clients />
-            </div>
-          </div>
+      <div className='col-12 py-custom-10 bg-black'>
+
+      </div>
+      <div className='home-carousel bg-custom-blue'>
+        <div className='py-custom-8 bg-custom-blue'>
+          <WithScrollbar />
         </div>
       </div>
       <div className='custom-slider-1 py-custom-10 bg-black'>
